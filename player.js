@@ -17,13 +17,22 @@ var jwDefaults = {
   "displaytitle": true,
   "height": 260,
   "key": "OnaVhJRtIMrfz2ddGOa03hTwMO3nqbostM+y5KAsVX+rii+fqObf/1LpF4QhZKo0",
-  "mute": true,
+  "mute": false, 
   "ph": 1,
   "pid": "IDzF9Zmk",
   "playbackRateControls": false,
   "preload": "metadata",
   "repeat": false,
   "stretching": "uniform",
-  "width": "100%"
+  "width": "100%",
+  
+  // 🔹 Main color customization
+  skin: {
+    name: "seven",
+    active: "#e50914",
+    inactive: "#CCCCCC",
+    background: "#000000"
+  }
 };
 jwplayer.defaults = jwDefaults;
+

@@ -31,7 +31,7 @@ var jwDefaults = {
     name: "seven",
     active: "#e50914",
     inactive: "#CCCCCC",
-    background: "#000000"
+    background: "rgba(0,0,0,0.3)"
   }
 };
 jwplayer.defaults = jwDefaults;
